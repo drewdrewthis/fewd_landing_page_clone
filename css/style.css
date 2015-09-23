@@ -57,7 +57,7 @@ div {
     cursor: pointer;
 }
 
-/* Masthead Section */
+/* Intro Section */
 .introduction {
 	background: url('../images/first-background.jpg') no-repeat 50% 50%;
 	background-size: cover;
@@ -96,4 +96,31 @@ div {
 .btn:hover {
 	background-color: #d9400e;
     border-color: #cf3d0e;
+}
+
+/* Cases Section */
+.cases {
+	background: white;
+	text-align: center;
+	color: #1d1e21;
+	overflow: auto;
+}
+
+.cases h1 {
+	font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.cases .single-case {
+	display: inline-block;
+	margin: 0 3%;
+	width: 33.3%;
+	min-width: 20em;
+}
+
+.cases .case-lead {
+	font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
 }
