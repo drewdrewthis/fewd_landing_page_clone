@@ -3,7 +3,6 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
-  transition: All 1s ease;
 }
 
 body {
@@ -94,7 +93,7 @@ div {
     font-size: 1.125rem;
 }
 
-.btn: hover {
+.btn:hover {
 	background-color: #d9400e;
     border-color: #cf3d0e;
 }
