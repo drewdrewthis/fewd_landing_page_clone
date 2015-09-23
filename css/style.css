@@ -114,9 +114,8 @@ div {
 
 .cases .single-case {
 	display: inline-block;
-	margin: 0 3%;
 	width: 33.3%;
-	min-width: 20em;
+	float: left;
 }
 
 .cases .case-lead {
