@@ -107,9 +107,9 @@ div {
 
 .cases .content {
 	background: white;
-	padding: 7.875rem 0 4em;
-	text-align: center;
-	border-bottom: 1px solid grey;
+    padding: 5.675rem 0 8em;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
 }
 
 .cases h2 {
