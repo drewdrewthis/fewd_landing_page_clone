@@ -1,5 +1,9 @@
 body {
     background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
 }
 div {
     border: 1px solid Chocolate;
