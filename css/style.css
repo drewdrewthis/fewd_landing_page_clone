@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  transition: All 1s ease;
+}
+
 body {
     background-color: LightGray;
     font-family: 'Roboto', sans-serif;
@@ -18,7 +26,6 @@ div {
 	height: 4.375rem;
 	margin: 0 auto;
 	padding: 0 1em;
-	box-sizing; border-box;
 }
 #header-logo {
 	display: inline-block;
@@ -38,7 +45,8 @@ div {
 	text-decoration: none;
 	color: #838994;
 }
-.links > li.active a {
+.links > li.active a, .links > li > a:hover {
 	color: #4c5058;
     font-weight: 500;
+    cursor: pointer;
 }
