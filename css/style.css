@@ -130,3 +130,23 @@ div {
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
 }
+
+/* Footer Section */
+
+footer {
+	background: white;
+}
+
+footer .content {
+	text-align: center;
+	padding: 1em 0 5em;
+}
+
+footer .content li {
+	list-style: none;
+	display: inline-block;
+	height: 2em;
+	width: 2em;
+	border: 1px solid;
+	border-radius: 100%;
+}
