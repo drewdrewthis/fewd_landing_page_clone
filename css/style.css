@@ -15,7 +15,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 div {
-    border: 1px solid Chocolate;
+    /*border: 1px solid Chocolate;*/
 }
 /* Navigation Section */
 .top-navigation {
@@ -45,7 +45,7 @@ div {
 	text-decoration: none;
 	color: #838994;
 }
-.links > li.active a, .links > li > a:hover {
+.links > li.active a, .links > li:hover {
 	color: #4c5058;
     font-weight: 500;
     cursor: pointer;
