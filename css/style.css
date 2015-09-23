@@ -4,6 +4,7 @@ body {
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 div {
     border: 1px solid Chocolate;
