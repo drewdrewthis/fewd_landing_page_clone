@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: LightGray;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
@@ -103,7 +103,6 @@ div {
 .cases {
 	background: white;
 	color: #1d1e21;
-	overflow: auto;
 }
 
 .cases .content {
