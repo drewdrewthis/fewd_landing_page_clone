@@ -1,18 +1,21 @@
 body {
     background-color: LightGray;
 }
-nav {
-	background: white;
-	padding: 1em 3em;
+div {
+    border: 1px solid Chocolate;
 }
-.nav-container {
-	width: 100%;
-	max-width: 68em;
-	margin: auto;
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+	max-width: 60rem;
+	height: 4.375rem;
+	margin: 0 auto;
 }
 #header-logo {
-	width: 1.6em;
 	display: inline-block;
+	margin: 1em;
 }
 .header-links {
 	display: inline-block;
