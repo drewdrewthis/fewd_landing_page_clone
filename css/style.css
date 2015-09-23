@@ -1,30 +1,33 @@
 body {
     background-color: LightGray;
 }
-div {
-    border: 1px solid Chocolate;
-}
 nav {
 	background: white;
 	padding: 1em 3em;
+}
+.nav-container {
+	width: 100%;
+	max-width: 68em;
+	margin: auto;
 }
 #header-logo {
 	width: 1.6em;
 	display: inline-block;
 }
-nav > ul {
+.header-links {
 	display: inline-block;
 	list-style: none;
 	float: right;
 }
-nav > ul > li {
+.header-links > li {
 	display: inline-block;
 	margin-left: 1.5em;
 }
-nav > ul > li > a {
+.header-links > li > a {
 	text-decoration: none;
 	color: #838994;
 }
-nav > ul > li.active a {
-	font-weight: bold;
+.header-links > li.active a {
+	color: #4c5058;
+    font-weight: 500;
 }
