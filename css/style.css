@@ -107,15 +107,15 @@ div {
 
 .cases .content {
 	background: white;
-	padding-top: 7.875rem;
+	padding: 7.875rem 0 4em;
 	text-align: center;
+	border-bottom: 1px solid grey;
 }
 
 .cases h2 {
 	font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
-	background: white;
 }
 
 .cases .single-case {
