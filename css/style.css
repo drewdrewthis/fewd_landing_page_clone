@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: white;
+    background-color: LightGrey;
     font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
@@ -101,12 +101,13 @@ div {
 
 /* Cases Section */
 .cases {
-	background: white;
 	color: #1d1e21;
+	background: white;
 }
 
 .cases .content {
-	margin-top: 7.875rem;
+	background: white;
+	padding-top: 7.875rem;
 	text-align: center;
 }
 
@@ -114,12 +115,13 @@ div {
 	font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
+	background: white;
 }
 
 .cases .single-case {
 	display: inline-block;
 	width: 33.3%;
-	float: left;
+	margin: 0 -4px;
 	height: 4em;
 }
 
