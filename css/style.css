@@ -10,15 +10,21 @@ nav {
 }
 #header-logo {
 	width: 1.6em;
+	display: inline-block;
 }
 nav > ul {
-	display:inline-block;
+	display: inline-block;
 	list-style: none;
+	float: right;
 }
-nav > li {
+nav > ul > li {
+	display: inline-block;
 	margin-left: 1.5em;
 }
-nav > a {
+nav > ul > li > a {
 	text-decoration: none;
 	color: #838994;
+}
+nav > ul > li.active a {
+	font-weight: bold;
 }
