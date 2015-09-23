@@ -14,6 +14,9 @@ body {
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 }
+h1, h2, h3, p {
+    font-weight: 300;
+}
 div {
     /*border: 1px solid Chocolate;*/
 }
@@ -49,4 +52,34 @@ div {
 	color: #4c5058;
     font-weight: 500;
     cursor: pointer;
+}
+
+/* Masthead Section */
+.masthead {
+	background: url('../images/first-background.jpg') no-repeat 50% 50%;
+	background-size: cover;
+	padding: 12.5em 0;
+	text-align: center;
+	color: white;
+}
+
+.masthead .intro {
+	font-size: 3.125rem;
+	line-height: 0.4em;
+}
+
+.masthead .intro-lead {
+	font-size: 1.563rem;
+}
+
+.btn {
+	width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
 }
