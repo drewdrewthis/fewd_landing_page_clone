@@ -4,3 +4,21 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+nav {
+	background: white;
+	padding: 1em 3em;
+}
+#header-logo {
+	width: 1.6em;
+}
+nav > ul {
+	display:inline-block;
+	list-style: none;
+}
+nav > li {
+	margin-left: 1.5em;
+}
+nav > a {
+	text-decoration: none;
+	color: #838994;
+}
